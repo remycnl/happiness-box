@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "happiness-box",
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,11 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@prisma/client": "^6.16.3",
     "@prisma/nuxt": "^0.3.0",
     "@tailwindcss/vite": "^4.1.14",
     "nuxt": "^4.1.2",
+    "prisma": "^6.16.3",
     "tailwindcss": "^4.1.14",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2"
   }
 }
